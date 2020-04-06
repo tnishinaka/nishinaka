@@ -15,7 +15,7 @@ ul {
 a {
     text-decoration:none;
 }
-
+/* header以下 */
 .sns-con-icon img {
     width: 2.4rem;
     height: 2.4rem;
@@ -105,7 +105,7 @@ a {
 main {
     margin-top:3vh;
 }
-
+/* メイン画像 */
 .top-images {
     height:25rem;
     background:url("images/main-top.png") no-repeat;
@@ -132,13 +132,11 @@ main {
 .main-contents {
     width: 100rem;
     margin:0 auto;
-    /* text-align: center; */
 }
 
 .main-top {
     width:82rem;
     padding: 0 1rem;
-    /* text-align: center; */
     margin:0 auto;
 }
 
@@ -162,7 +160,7 @@ main {
 .sns-con-icon li {
     margin-left:2rem;
 }
-
+/* NRIのデジタルビジネス戦略 */
 .business {
     padding-top: 3rem;
 }
@@ -214,6 +212,7 @@ main {
     width: 29rem;
     height: 7rem;
 }
+
 .pdf-btn a:hover {
     opacity:0.5;
     transition:all 0.5s;
@@ -276,11 +275,10 @@ main {
     color:#000000;
     margin-left: 0.2em;
 }
-
+/* NRIの強み */
 .boxtop-in-con {
     margin:0 auto 3rem;
-    width: auto;
-    height: 28rem;
+    height: 30rem;
     padding: 2rem;
     margin: 0;
     background-color: #deecf8;
@@ -288,7 +286,6 @@ main {
 
 .boxtop-in-con h2 {
     font-size:1.6rem;
-    margin-bottom: 1rem;
 }
 
 .boxtop-contents {
@@ -302,38 +299,13 @@ main {
     color:#0c419a;
 }
 
-.boxtop-item-up span::before {
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    font-size:1.2rem;
-    color: #1a1a1a;
-    position: relative;
-    left:8px;
-    top:56px;
-}
-
-span.boxtop-firstitem::before {
-    top:43px;
-}
-
-.box-item-low span::before {
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    font-size:1.2rem;
-    z-index: 10;
-    color: #1a1a1a;
-    position: relative;
-    left:8px;
-    top:36px;
-}
-
-
 .boxtop-item-up {
     margin-bottom: 2rem;
     align-self: flex-end;
+}
 
+.box-item-low {
+    line-height:2rem;
 }
 
 .boxtop-item-up a{
@@ -342,7 +314,7 @@ span.boxtop-firstitem::before {
     text-align:center;
     width: 23rem;
     height: 7rem;
-    padding: 15px 15px;
+    padding: 10px 15px;
     background-color: #ffffff;
     border:solid 1px #cccccc;
 }
@@ -354,7 +326,7 @@ span.boxtop-firstitem::before {
 }
 
 .boxtop-item-up  + .boxtop-item-up {
-    line-height: 4rem;
+    line-height: 4.4rem;
 }
 
 .box-item-low a{
@@ -368,9 +340,32 @@ span.boxtop-firstitem::before {
     border:solid 1px #cccccc;
 }
 
-.box-item-low {
-    line-height:2rem;
+.boxtop-item-up span::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.2rem;
+    color: #aaaaaa;
+    position: relative;
+    left:8px;
+    top:56px;
 }
+
+.box-item-low span::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.2rem;
+    color:#aaaaaa;
+    position: relative;
+    left:8px;
+    top:36px;
+}
+
+span.boxtop-firstitem::before {
+    top:43px;
+}
+
 /* 企業情報以下 */
 .main-info {
     margin-top:6rem;
@@ -414,7 +409,6 @@ span.boxtop-firstitem::before {
     display:block;
     box-sizing: border-box;
     padding-bottom: 1.2rem;
-    
 }
 
 .main-info-box-con li a::before {
@@ -492,7 +486,6 @@ span.boxtop-firstitem::before {
 .main-bottom-box-title {
     font-size:1.6rem;
     padding-bottom: 2rem;
-    
 }
 
 .main-bottom-box-con {
@@ -540,8 +533,6 @@ footer {
 .footer-con {
     margin-top:5rem;
     display:flex;
-    
-    
 }
 
 .footer-con li a {
@@ -553,21 +544,17 @@ footer {
     text-decoration: underline;
 }
 
-.footer-item::before {
+.footer-item + .footer-item::before {
     content:"\02160";
     padding-right: 1em;
     color:#999999;
     margin-left: 1em;
-    display:inline-block;
-}
-
-.footer-item:hover::before {
-    text-decoration:none;
+    vertical-align: center;
 }
 
 footer address {
     font-size:1rem;
     margin-top: 2rem;
     margin-bottom: 9rem;
-    color: #333333;;
+    color: #333333;
 }
