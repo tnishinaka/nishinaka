@@ -294,7 +294,7 @@ main {
     align-self: flex-end;
 }
 
-.box-item-low {
+.boxtop-item-low {
     line-height:2rem;
 }
 
@@ -318,7 +318,7 @@ main {
     line-height: 4.4rem;
 }
 
-.box-item-low a{
+.boxtop-item-low a{
     display:block;
     text-align:center;
     width: 23rem;
@@ -339,7 +339,7 @@ main {
     top:56px;
 }
 
-.box-item-low span::before {
+.boxtop-item-low span::before {
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
