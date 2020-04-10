@@ -277,7 +277,7 @@ ul {
 }
 
 .home_recruit p {
-    font: 15px;
+    font-size: 15px;
     font-weight: 100;
     line-height:2;
     letter-spacing: 0.45px;
@@ -316,7 +316,7 @@ ul {
 }
 
 footer small{
-    font: 11px;
+    font-size: 11px;
     letter-spacing: 0.44px;
     color: #FFFFFF;
 }
