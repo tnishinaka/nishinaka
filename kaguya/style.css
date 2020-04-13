@@ -57,12 +57,48 @@ ul {
 
 .home_main_img {
     height:744px;
-    width: 100%;
     background:url("img/home_top.png") no-repeat;
-    background-size:cover;
+    background-size:100% 100%;
     position:relative;
     margin-bottom: 80px;
 }
+
+.news_main_img {
+    height:456px;
+    background:url("img/news_top.png") no-repeat;
+    background-size:100% 100%;
+    position:relative;
+    margin-bottom: 160px;
+}
+
+.recruit_main_img {
+    height:456px;
+    background:url("img/recruit_top.png") no-repeat;
+    background-size:100% 100%;
+    position:relative;
+    margin-bottom: 161px;
+}
+
+.contact_main_img {
+    height:456px;
+    background:url("img/contact_top.png") no-repeat;
+    background-size:100% 100%;
+    position:relative;
+    margin-bottom: 161px;
+}
+
+/* 共通のmainフォント home以外 */
+.main_img h1 {
+    width: 151px;
+    font-size:30px;
+    letter-spacing: 3px;
+    font-weight:100;
+    color:#918F89;
+    position:absolute;
+    top:192px;
+    left:228px;
+}
+/* ^------------------------ */
 
 .home_main_img h1 {
     width: 630px;
@@ -226,6 +262,7 @@ ul {
     font-size:24px;
     letter-spacing: 2.4px;
     margin-bottom: 47px;
+    font-weight:100;
 }
 
 .contact input {
@@ -327,4 +364,60 @@ footer small{
 .copymark {
     font-size:19px;
     vertical-align:-8%;
+}
+
+/* news recruitページ下margin */
+/* contact mainページ */
+.contactpage_contact,
+.newspage_news,
+.recruitpage_recruit {
+    margin-bottom: 320px;
+}
+
+
+.contactpage_contact h2 {
+    margin-bottom: 40px;
+}
+
+.contactpage_contact p {
+    margin-bottom: 72px;
+}
+
+/* recruit table */
+table {
+    border-collapse: collapse;
+    margin:0 auto;
+}
+
+caption {
+    font-size:23px;
+    letter-spacing: 2.3px;
+    padding-bottom: 32px;
+}
+
+th,td {
+    border:1px solid #707070;
+}
+
+th {
+    background-color: #B2B2B2;
+    font-size:16px;
+    font-weight:100;
+    padding: 136px 48px;
+}
+
+td {
+    padding: 16px 0 16px 48px;
+    font-size:14px;
+    width: 416px;
+}
+
+.table_right_top {
+    font-size:16px;
+    padding-bottom: 8px;
+}
+
+table ul li::before {
+    content: '\02022';
+    padding:0 3px;
 }
