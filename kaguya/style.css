@@ -117,8 +117,8 @@ ul {
 /* NEWS */
 .news {
     padding: 0 96px;
-    margin-bottom:240px;
-    width: 100%;
+    width: 1280px;
+    margin:0 auto 240px;
 }
 
 .news h2 {
