@@ -38,9 +38,7 @@ ul {
 }
 
 .html_logo_black {
-    margin-right:auto;
-    margin-left:103px;
-    line-height: 56px;
+    margin:16px auto 0px 96px;
 }
 
 .top_menu {
@@ -84,24 +82,28 @@ ul {
 .main_proposal {
     padding: 0 88px;
     margin-bottom:240px;
+    height: 560px;
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin: 240px auto;
 }
 
 .main_proposal_con {
     padding-left: 560px;
-    height: 560px;
+    height:560px;
     background:url("img/concept.png") no-repeat;
     background-size:contain;
-}
+} 
 
 .main_proposal_message {
     padding-left:56px;
 }
 
 .main_proposal_message h2 {
+    padding-top: 240px;
     font-size:25px;
     font-weight:100;
-    padding-top: 240px;
-    padding-bottom: 71px;
+    margin-bottom: 71px;
     letter-spacing: 2.5px;
 }
 
@@ -116,6 +118,7 @@ ul {
 .news {
     padding: 0 96px;
     margin-bottom:240px;
+    width: 100%;
 }
 
 .news h2 {
