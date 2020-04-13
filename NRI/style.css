@@ -1,0 +1,548 @@
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Noto Sans JP',sans-serif!important;
+}
+
+ul {
+    list-style-type:none;
+}
+
+a {
+    text-decoration:none;
+}
+/* header以下 */
+.sns-con-icon img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.top-container {
+    display:flex;
+    align-items:center;
+    position:fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: 6.4rem;
+    z-index:100;
+}
+
+.top-container img {
+    width: 6rem;
+    object-fit: cover;
+    margin-left:10vw;
+}
+
+.nav-mid {
+    display:flex;
+    margin-left:13vw;
+}
+
+.nav-mid li  {
+    margin-left:2rem;
+}
+
+.nav-mid li a {
+    color: #000000;
+    font-size:1.4rem;
+    font-weight:bold;
+}
+
+.nav-mid li a:hover{
+    color:#1033a7;
+    text-decoration:underline;
+}
+
+.nav-right {
+    display:flex;
+    margin-left:auto;
+}
+
+.nav-right li {
+    margin-right:3rem;
+}
+
+.nav-right li a:hover {
+    opacity:0.5;
+}
+
+.nav-right img  {
+    width:2rem;
+    margin: 0;
+    object-fit: cover;
+    color:#5f5c5c;
+}
+
+.fa-bars {
+    font-size :2rem;
+    color:#5f5c5c;
+}
+
+.nav-bottom {
+    display:flex;
+    margin-left:15vw;
+    padding-top: 7rem;
+}
+
+.nav-bottom li a {
+    font-size:1.2rem;
+    color: #999999;
+}
+
+.nav-bottom-item + .nav-bottom-item::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.3rem;
+    color: #CCC;
+    margin-left: 0.3em;
+    margin-right:0.3em;
+    vertical-align: center;
+}
+
+main {
+    margin-top:3vh;
+}
+/* メイン画像 */
+.top-images {
+    height:25rem;
+    background:url("images/main-top.png") no-repeat;
+    background-size:cover;
+}
+
+.top-images {
+    color:#ffffff;
+}
+
+.top-images p,h1 {
+    padding-left: 25%;
+    padding-top: 5vh;
+}
+
+.top-images p {
+    font-size:2rem;
+}
+
+.top-images h1 {
+    font-size:2.6rem;
+}
+
+.main-contents {
+    width: 100rem;
+    margin:0 auto;
+}
+
+.main-top {
+    width:82rem;
+    padding: 0 1rem;
+    margin:0 auto;
+}
+
+.sns-con {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight:500;
+    color: #555353;
+    margin-top:5rem;
+}
+
+.share-nav {
+    font-size :1.2rem;
+}
+
+.sns-con-icon {
+    display:flex;
+}
+
+.sns-con-icon li {
+    margin-left:2rem;
+}
+/* NRIのデジタルビジネス戦略 */
+.business {
+    padding-top: 3rem;
+}
+
+.business h2 {
+    font-size:2.2rem;
+    margin-bottom: 3rem;
+}
+
+.business h2::before {
+    background:url("images/blue-icon.png") no-repeat;
+    padding-left: 3rem;
+    content:"";
+}
+
+.business p {
+    font-size:1.6rem;
+    color: #333333;
+    line-height:2em
+}
+
+.business .main-top-text-top {
+    margin-bottom: 3rem;
+}
+
+.business .main-top-text-sub {
+    margin-bottom: 3rem;
+}
+
+.main-top-img {
+    margin-bottom: 3rem;
+}
+
+.main-top-img img {
+    width: 82rem;
+    object-fit: cover;
+}
+
+.pdf-btn a {
+    margin: 0 auto;
+    text-align:center;
+    background-color:#005bac;
+    padding: 10px 10px;
+    width: 30rem;
+    height: 7rem;
+    display: block;
+    font-size:1.6rem;
+    font-weight: 100;
+    color:#ffffff;
+}
+
+.pdf-btn a:hover {
+    opacity:0.5;
+    transition:all 0.5s;
+}
+
+.pdf-btn a::after {
+    background:url("images/icon-pdf.svg") no-repeat;
+    content:"";
+    padding-right:3rem;
+    margin-left: 2rem;
+}
+
+.pdf-btn a::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.2rem;
+    color: #ffffff;
+    position:relative; 
+    top:11px;
+    right:17px;
+}
+
+.branch-con {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display:flex;
+    justify-content: space-between;
+    font-size:1.6rem;
+}
+
+.branch-con li a {
+    color:#0c419a;
+}
+
+.branch-con li a:hover {
+    text-decoration:underline;
+}
+
+.branch-con li:first-child::before {
+    content:"\03c";
+    padding-left: 2rem;
+    color:#000000;
+    margin-right: 0.2em;
+}
+
+.branch-con li:last-child::after {
+    content:"\03e";
+    padding-right: 2rem;
+    color:#000000;
+    margin-left: 0.2em;
+}
+/* NRIの強み */
+.boxtop-in-con {
+    margin:0 auto 3rem;
+    height: 30rem;
+    padding: 2rem;
+    background-color: #deecf8;
+}
+
+.boxtop-in-con h2 {
+    font-size:1.6rem;
+}
+
+.boxtop-contents {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boxtop-contents li a {
+    font-size:1.6rem;
+    color:#0c419a;
+}
+
+.boxtop-item-up {
+    margin-bottom: 2rem;
+    align-self: flex-end;
+}
+
+.boxtop-item-low {
+    line-height:2rem;
+}
+
+.boxtop-item-up a{
+    display:block;
+    text-align:center;
+    width: 23rem;
+    height: 7rem;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border:solid 1px #cccccc;
+}
+
+.boxtop-item-up a:hover,
+.boxtop-item-low a:hover {
+    background-color: #dfdfdf;
+    transition: all 0.3s;
+}
+
+.boxtop-item-up  + .boxtop-item-up {
+    line-height: 4.4rem;
+}
+
+.boxtop-item-low a{
+    display:block;
+    text-align:center;
+    width: 23rem;
+    height: 5rem;
+    padding: 15px 15px;
+    background-color: #ffffff;
+    border:solid 1px #cccccc;
+}
+
+.boxtop-item-up span::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.2rem;
+    color: #aaaaaa;
+    position: relative;
+    left:8px;
+    top:56px;
+}
+
+.boxtop-item-low span::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.2rem;
+    color:#aaaaaa;
+    position: relative;
+    left:8px;
+    top:36px;
+}
+
+span.boxtop-firstitem::before {
+    top:43px;
+}
+
+/* 企業情報以下 */
+.main-info {
+    margin-top:6rem;
+}
+
+.main-info a {
+    color:#0c419a;
+}
+
+.main-info a:hover {
+    text-decoration:underline;
+}
+
+.main-info-title {
+    font-size:2rem;
+    padding: 1.5rem 0;
+    border-top:solid 2px#000000;
+    border-bottom:dotted 1px #000000;
+}
+
+.main-info-box {
+    padding: 2rem 0;
+    border-bottom:dotted 1px #000000;
+
+}
+
+.main-info-box-title {
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+}
+
+.main-info-box-con {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 1.4rem;
+}
+
+.main-info-box-con li a {
+    width: calc(100rem / 4);
+    display:block;
+    box-sizing: border-box;
+    padding-bottom: 1.2rem;
+}
+
+.main-info-box-con li a::before {
+    display:inline-block;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.2rem;
+    z-index: 10;
+    color: #aaaaaa;
+    margin-right:1rem;
+}
+
+.main-info-box-con li a:hover::before {
+    text-decoration:none; 
+}
+
+.page-back {
+    font-size:1.6rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+}
+
+.page-back a::before {
+    display:inline-block;
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.2rem;
+    z-index: 10;
+    color: #aaaaaa;
+    margin-right:1rem;
+}
+/* FOLLOW US 以下 */
+.main-bottoms {
+    border-bottom:1px solid #cccccc;
+}
+
+.main-bottom-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.main-bottom-box {
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+.main-bottom-title {
+    display:flex;
+    padding: 2rem 0;
+    border-top :solid 2px #999999;
+    border-bottom :solid 2px #999999;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.main-bottom-title h2 {
+    display:block;
+    font-size:2rem;
+}
+
+.main-bottom-sections {
+    width: 130rem;
+    margin: 0 auto;
+}
+
+.main-bottom-sections a {
+    color:#000000;
+}
+
+.main-bottom-box-title {
+    font-size:1.6rem;
+    padding-bottom: 2rem;
+}
+
+.main-bottom-box-con {
+    font-size:1.4rem;
+}
+
+.bold {
+    font-size: 1.6rem;
+    font-weight:bold;
+}
+
+.main-bottom-box-con a {
+    width: calc(130rem / 4);
+    display:block;
+}
+
+.main-bottom-box a::before {
+    display:inline-block;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size:1.2rem;
+    z-index: 10;
+    color: #aaaaaa;
+    margin-right:1rem;
+}
+
+.main-bottom-box a:hover {
+    text-decoration:underline;
+}
+
+.main-bottom-box a:hover::before {
+    text-decoration: none;
+}
+
+.main-bottom-box-con li {
+    padding-bottom: 2rem;
+}
+/* footer以下 */
+footer {
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.footer-con {
+    margin-top:5rem;
+    display:flex;
+}
+
+.footer-con li a {
+    color:#999999;
+    font-size:1.2rem;
+}
+
+.footer-con li a:hover {
+    text-decoration: underline;
+}
+
+.footer-item + .footer-item::before {
+    content:"\02160";
+    padding-right: 1em;
+    color:#999999;
+    margin-left: 1em;
+    vertical-align: center;
+}
+
+footer address {
+    font-size:1rem;
+    margin-top: 2rem;
+    margin-bottom: 9rem;
+    color: #333333;
+}
