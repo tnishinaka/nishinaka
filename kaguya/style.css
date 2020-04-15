@@ -455,8 +455,7 @@ main {
     height: 24px;
     object-fit: cover;
     line-height: 56px;
-    margin:0 auto 0 168px ;
-    /* text-align: center; */
+    margin:0 auto ;
 }
 
 /* main画像 */
