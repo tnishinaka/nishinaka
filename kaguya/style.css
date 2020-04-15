@@ -538,7 +538,7 @@ main {
     text-align:center;
     margin:0 auto;
     width: 328px;
-    padding-bottom: 288px;
+    padding-bottom: 316px;
     /* 画像の下端 */
     background:url("img/concept@2x.png") no-repeat;
     background-size:contain;
@@ -555,7 +555,6 @@ main {
     padding: 0;
     margin-bottom: 32px;
     letter-spacing: 2.1px;
-
 }
 
 .main_proposal_message p {
