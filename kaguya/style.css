@@ -32,9 +32,13 @@ ul {
 
 /* home header */
 .header {
-    min-height: 56px;
+    height: 56px;
     display :flex;
     justify-content: flex-end;
+}
+
+.phone_header {
+    display:none;
 }
 
 .html_logo_black {
@@ -119,8 +123,7 @@ ul {
     padding: 0 88px;
     margin-bottom:240px;
     height: 560px;
-    box-sizing: border-box;
-    max-width: 1280px;
+    width: 1280px;
     margin: 240px auto;
 }
 
@@ -149,7 +152,6 @@ ul {
     line-height: 2.5;
 }
 
-
 /* NEWS */
 .news {
     padding: 0 96px;
@@ -158,7 +160,6 @@ ul {
 }
 
 .news h2 {
-    color:#3B3B3B;
     font-size:23px;
     letter-spacing: 2.3px;
     text-align:center;
@@ -245,7 +246,9 @@ ul {
     background-color: #D1D1D1;
     border-radius:30px;
     font-size:18px;
+    letter-spacing: 1.8px;
     padding: 19px 64px;
+    font-weight:100;
 }
 
 .catalog a:hover {
@@ -420,4 +423,229 @@ td {
 table ul li::before {
     content: '\02022';
     padding:0 3px;
+}
+
+/* レスポンシブ */
+@media screen and (max-width:375px) {
+    
+/* 共通 */
+main {
+    width:375px;
+}
+    
+.home_main_img {
+    margin-bottom:0;
+}
+
+/* header */
+.header {
+    background-color: #918F89;
+    display:block;
+    width: 375px;
+}
+
+.html_logo_black {
+    margin:0 ;
+    padding-top: 16px;
+}
+
+.phone_header {
+    display:block;
+    width: 39px;
+    height: 24px;
+    object-fit: cover;
+    line-height: 56px;
+    margin:0 auto 0 168px ;
+    /* text-align: center; */
+}
+
+/* main画像 */
+.pc_header {
+    display:none;
+}
+
+.nav {
+    display:none;
+}
+
+.home_main_img {
+    background-size:cover;
+    background-position:45% 40%;
+    position:relative;
+    margin-bottom: 88px;
+}
+
+.home_main_img h1{
+    font-size:39px;
+    letter-spacing:1.95px;
+    padding: 0;
+    background-color: transparent;
+    width: 0;
+    position: absolute;
+    top:144px;
+}
+
+.home_main_img h1 span{
+    display:block;
+    padding:16px 16px 16px 54px;
+    margin-bottom:16px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.we {
+    width:136px;
+}
+
+.propose {
+    width:240px;
+}
+
+.alife {
+    width: 184px;
+}
+
+
+/* proposal */
+.main_proposal {
+    width: 375px;
+    padding: 0;
+    height: auto;
+    margin-top:0;
+    margin-bottom: 240px;
+}
+
+.main_proposal_con {
+    height: auto;
+    padding-left: 0;
+    text-align:center;
+    margin:0 auto;
+    width: 328px;
+    padding-bottom: 315px;
+    background:url("img/concept@2x.png") no-repeat;
+    background-size:contain;
+    background-position:top 330px left 0px;
+} 
+
+.main_proposal_message {
+    padding-left:0px;
+}
+
+.main_proposal_message h2 {
+    font-size:21px;
+    padding: 0;
+    margin-bottom: 32px;
+    letter-spacing: 2.1px;
+
+}
+
+.main_proposal_message p {
+    font-size:14px;
+    letter-spacing: 0.42px;
+    line-height: 2.5;
+}
+
+.main_proposal_message br {
+    display:none;
+}
+
+.br::after {
+    content: "\A";
+	white-space: pre-line;
+}
+
+/* news */
+.news {
+    width: 375px;
+}
+
+.news h2 {
+    font-size:25px;
+    letter-spacing: 2.5px;
+    padding-bottom: 24px;
+}
+
+.news_list {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    align-items: center;
+}
+.news_img {
+    height: 272px;
+    width: 272px;
+    margin-bottom:24px;
+}
+
+.news_img + .news_img {
+    margin-left: 0px;
+}
+
+.news_list figcaption {
+    line-height: 272px;
+}
+
+/*catalog*/
+.catalog a {
+    color:#707070;
+    background-color: #D1D1D1;
+    border-radius:30px;
+    font-size:18px;
+    padding: 19px 32px;
+}
+
+/* contact */
+.contact h2 {
+    margin-bottom: 32px;
+}
+
+.contact input[type="text"], 
+.contact input[type="email"]{
+    width: 286px;
+    margin-bottom: 16px;
+}
+
+.contact textarea {
+    width: 286px;
+    height: 160px;
+    margin-bottom:32px;
+}
+
+.contact input[type="submit"] {
+    padding: 12px 64px;
+    border-radius: 30px;
+}
+
+/* recruit */
+.home_recruit h2 {
+    padding-bottom: 32px;
+}
+
+.home_recruit p:nth-of-type(2) {
+    padding-bottom: 24px;
+}
+
+/* footer */
+.footer {
+    width: 375px;
+}
+
+.footer_con {
+    padding: 0;
+    display:block;
+}
+
+.footer_con ul {
+    display:none;
+}
+
+.html_logo_white {
+    padding-top: 72px;
+    padding-bottom: 82px; 
+}
+
+.html_logo_white img {
+    width: 51px;
+    height: 32px;
+    object-fit: cover;
+}
 }
