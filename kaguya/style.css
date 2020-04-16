@@ -106,6 +106,10 @@ ul {
     top:192px;
     left:228px;
 }
+
+h1.contact_title {
+    color:#FFFFFF;
+}
 /* ^------------------------ */
 
 .home_main_img h1 {
@@ -387,10 +391,12 @@ footer small{
 .recruitpage_recruit {
     margin-bottom: 320px;
 }
-
+.contact_responsive {
+    display:none;
+}
 
 .contactpage_contact h2 {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .contactpage_contact p {
@@ -693,4 +699,90 @@ footer small{
     height: 32px;
     object-fit: cover;
 }
+
+/*home以外maintop画像部分  */
+.news_main_img{
+    height:648px;
+    background-image: url("img/news_top_sp.png") no-repeat;
+    background-size:cover;
+    background-position: 96% 100%;
+
+}
+
+.recruit_main_img {
+    height:648px;
+    background-image: url("img/contact_top_sp.png") no-repeat;
+    background-size:cover;
+    background-position: 89% 100%;
+}
+
+.contact_main_img {
+    height:648px;
+    background-image: url("img/recruit_top_sp.png") no-repeat;
+    background-size:cover;
+    background-position: 85% 100%;
+}
+
+.main_img h1 {
+    text-align: center;
+    width: 137px;
+    font-size:25px;
+    letter-spacing: 2.5px;
+    color:#918F89;
+    position:absolute;
+    top:216px;
+    left:119px;
+}
+
+h1.contact_title {
+    color:#FFFFFF;
+}
+
+/* newspageレスポンシブ */
+.newspage_news {
+    margin-bottom:224px;
+}
+
+/* recruitレスポンシブ */
+.recruitpage_recruit {
+    margin-bottom: 256px;
+}
+
+caption {
+    padding-bottom: 40px;
+}
+
+th {
+    font-size:14px;
+    padding: 138px 12px;   
+}
+
+td {
+    padding: 17px 0 16px 23px;
+    font-size:13px;
+    width: 258px;
+}
+
+.table_right_top {
+    font-size:15px;
+}
+
+/* contact */
+.contact {
+    margin-bottom:240px;
+}
+
+.contact_pc {
+    display:none;
+}
+
+.contact_responsive {
+    display:block;
+    padding-bottom: 32px;
+    font-size:25px;
+    letter-spacing: 2.5px;
+}
+
+
+
 }
