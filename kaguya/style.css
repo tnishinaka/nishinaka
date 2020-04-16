@@ -703,7 +703,7 @@ footer small{
 /*home以外maintop画像部分  */
 .news_main_img{
     height:648px;
-    background-image: url("img/news_top_sp.png") no-repeat;
+    background: url("img/news_top_sp.png") no-repeat;
     background-size:cover;
     background-position: 96% 100%;
 
@@ -711,14 +711,14 @@ footer small{
 
 .recruit_main_img {
     height:648px;
-    background-image: url("img/contact_top_sp.png") no-repeat;
+    background: url("img/contact_top_sp.png") no-repeat;
     background-size:cover;
     background-position: 89% 100%;
 }
 
 .contact_main_img {
     height:648px;
-    background-image: url("img/recruit_top_sp.png") no-repeat;
+    background: url("img/recruit_top_sp.png") no-repeat;
     background-size:cover;
     background-position: 85% 100%;
 }
